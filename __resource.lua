@@ -7,10 +7,10 @@ dependencies {
 }
 
 client_scripts {
-	"cl_client.lua",
+	"src/player.client.lua",
 }
 
 server_scripts {
 	"@ft_players/server.wrappers.lua",
-	"sv_player.lua",
+	"src/player.server.lua",
 }
