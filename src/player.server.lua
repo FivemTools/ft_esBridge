@@ -31,12 +31,12 @@ end)
 
 -- Get values in players by player
 AddEventHandler("es:getPlayerFromId", function (id, callback)
-	local player = GetPlayerFormId(id)
+	local player = GetPlayerFromServerId(id)
 	callback(player)
 end)
 
 -- Get values in database by identifier
 AddEventHandler("es:getPlayerFromIdentifier", function (steamId, callback)
-		local player = GetPlayerFormSteamId(identifier)
+		local player = GetPlayerFromSteamId(identifier)
 		callback(player)
 end)

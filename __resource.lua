@@ -4,6 +4,7 @@
 
 dependencies {
   "ft_players",
+  "ft_cash",
 }
 
 client_scripts {
